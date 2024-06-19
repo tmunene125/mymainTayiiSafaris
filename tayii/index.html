@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tayii Safaris</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="https://github.com/tmunene125/tayii-safaris-full-website.git">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Tayii<span>Safaris</span> 
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Welcome to Tayii Safaris</h1>
+                    <p>where we try our best to meet your expections</p>
+                <div class = "header-form">
+                    <h2>"Creating Memories, Crafting Experiences."</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST" class = "flex" >
+                        <input type="hidden" name="access_key" value="0a381c9c-272b-4cb1-a074-445fc6a17bc4">
+                        <input type = "text" name="location" class = "form-control" placeholder="Location">
+                        <input type="date" name="date" class = "form-control" placeholder="Date">
+                        <input type="number" name="location" class = "form-control" placeholder="People">
+                        <input type="email" name="email" class = "form-control" placeholder="Email">
+                        <input type="time" name="time of depart" class = "form-control" placeholder="time of depart">
+                        <input type="number" name="time of stay" class = "form-control" placeholder="Time of stay">
+                        <input type="submit" class = "btn" value = "Submit">
+                    </form>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Joining Brazil offers diverse landscapes, vibrant culture, and economic opportunities. Experience the Amazon rainforest, beautiful beaches, rich history, and a dynamic lifestyle in one of the world's largest economies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text">Experience Australia's stunning landscapes, vibrant cities, unique wildlife, and rich cultural heritage. From the Great Barrier Reef to Sydney's iconic Opera House, an unforgettable adventure awaits.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Experience the charm of Germany's historic cities, vibrant culture, and stunning landscapes. Indulge in world-class cuisine, explore fairy-tale castles, and immerse yourself in rich traditions and festive events </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Thailand offers stunning beaches, vibrant culture, delicious cuisine, and affordable luxury. Whether exploring bustling cities or serene islands, the country's unique charm guarantees an unforgettable vacation experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Italy beckons with its rich history, breathtaking landscapes, delectable cuisine, and vibrant culture. From ancient ruins to picturesque coastlines and world-class art, Italy promises an unforgettable vacation experience filled with beauty and charm.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">Experience paradise in the Maldives with pristine beaches, turquoise waters, and luxurious overwater villas. Dive into vibrant coral reefs, indulge in world-class spa treatments, and unwind in unparalleled natural beauty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Indulge in unparalleled luxury at our exquisite hotels, where opulent accommodations, impeccable service, and world-class amenities await. From elegant suites with breathtaking views to exclusive spa treatments and gourmet dining, our hotels redefine luxury and ensure an unforgettable experience. Discover a haven of sophistication and relaxation, where every detail is meticulously crafted to exceed your expectations and create cherished memories of exceptional comfort and style.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Travel Guide</h3>
+                        <p class = "text">We provide comprehensive travel guides to ensure your journey is seamless and memorable. Our guides offer insider tips on local culture, must-see attractions, dining recommendations, and practical travel advice. Whether you seek adventure or relaxation, our guides cater to every traveler's needs, ensuring you make the most of your destination.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">We pride ourselves on offering competitive and affordable prices without compromising on quality. Our commitment to value means you can enjoy your vacation without breaking the bank, ensuring a memorable experience at a reasonable cost.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Had the best business trip to Brazil</p>
+                        <div class = "test-item-info">
+                            <img src = "images\man photo 1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Kevin Watutu</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">I got a positive feedback from my kids. They all enjoyed Brazil.Thank you Tayii Safaris</p>
+                        <div class = "test-item-info">
+                            <img src = "images\girl photo3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Brenda Akello</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Go go Tayii Safaris. Best vacation ever. Thank you Tayii Safaris</p>
+                        <div class = "test-item-info">
+                            <img src = "images\man photo 2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Andrew Morris</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Tayii<span>Safaris</span>
+                    </a>
+                    <p class = "text">Welcome to Tayii Safaris where we try our best to meet your expections</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "https://www.facebook.com/trippygotours?igsh=ZXJ2a255eGRwZTRq">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/trippygotours?igsh=ZXJ2a255eGRwZTRq">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.pinterest.com/trippygotours?igsh=ZXJ2a255eGRwZTRq">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.google-plus.com/trippygotours?igsh=ZXJ2a255eGRwZTRq">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "gallery.html">Thailand</a></li>
+                        <li><a href = "gallery.html">Australia</a></li>
+                        <li><a href = "gallery.html">Maldives</a></li>
+                        <li><a href = "gallery.html">Switzerland</a></li>
+                        <li><a href = "gallery.html">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST" class = "flex">
+                        <input type="hidden" name="access_key" value="0a381c9c-272b-4cb1-a074-445fc6a17bc4">
+                        <input type = "email" name="email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
